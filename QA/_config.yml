@@ -1,0 +1,24 @@
+title: brandON Mobile QA Docs
+description: Manual QA coverage and scenario documentation for the brandON mobile app.
+theme: minima
+markdown: kramdown
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+optional_front_matter:
+  remove_originals: true
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - README.md
