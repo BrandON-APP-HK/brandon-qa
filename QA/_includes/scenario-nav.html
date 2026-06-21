@@ -1,0 +1,37 @@
+{%- assign previous_scenario = nil -%}
+{%- assign next_scenario = nil -%}
+{%- assign current_scenario = nil -%}
+{%- assign found_current = false -%}
+
+{%- for scenario in site.data.scenarios -%}
+  {%- if found_current and next_scenario == nil -%}
+    {%- assign next_scenario = scenario -%}
+  {%- endif -%}
+
+  {%- if scenario.file == page.name or scenario.file == page.path -%}
+    {%- assign current_scenario = scenario -%}
+    {%- assign found_current = true -%}
+  {%- elsif found_current == false -%}
+    {%- assign previous_scenario = scenario -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if current_scenario -%}
+  <nav class="scenario-nav" aria-label="Scenario navigation">
+    <div class="scenario-nav__slot scenario-nav__slot--prev">
+      {%- if previous_scenario -%}
+        <a class="scenario-nav__button" href="{{ previous_scenario.file | replace: '.md', '.html' }}" rel="prev" title="{{ previous_scenario.title | escape }}">PREV</a>
+      {%- else -%}
+        <span class="scenario-nav__button scenario-nav__button--disabled" aria-disabled="true">PREV</span>
+      {%- endif -%}
+    </div>
+
+    <div class="scenario-nav__slot scenario-nav__slot--next">
+      {%- if next_scenario -%}
+        <a class="scenario-nav__button" href="{{ next_scenario.file | replace: '.md', '.html' }}" rel="next" title="{{ next_scenario.title | escape }}">NEXT</a>
+      {%- else -%}
+        <span class="scenario-nav__button scenario-nav__button--disabled" aria-disabled="true">NEXT</span>
+      {%- endif -%}
+    </div>
+  </nav>
+{%- endif -%}

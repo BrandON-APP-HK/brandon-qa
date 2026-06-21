@@ -1,0 +1,58 @@
+- file: 01.User_Login_Google.md
+  title: 1. User Login Google
+- file: 02.User_Login_Apple_iOS.md
+  title: 2. User Login Apple iOS
+- file: 03.User_Login_Email_Password.md
+  title: 3. User Login Email Password
+- file: 04.User_Registration_Email.md
+  title: 4. User Registration Email
+- file: 05.User_Forgot_Password.md
+  title: 5. User Forgot Password
+- file: 06.User_Email_Verification.md
+  title: 6. User Email Verification
+- file: 07.Navigation_Guest_Access_Control.md
+  title: 7. Navigation Guest Access Control
+- file: 08.Drawer_Login_Logout.md
+  title: 8. Drawer Login Logout
+- file: 09.Home_Feed_Browse_Filter_Sort.md
+  title: 9. Home Feed Browse Filter Sort
+- file: 10.Home_Deal_Actions_Like_Share_Report.md
+  title: 10. Home Deal Actions Like Share Report
+- file: 11.Saved_Liked_Deals.md
+  title: 11. Saved Liked Deals
+- file: 12.Search_Deals.md
+  title: 12. Search Deals
+- file: 13.Map_List_Toggle_and_Permissions.md
+  title: 13. Map List Toggle and Permissions
+- file: 14.Map_Pin_Carousel_Redo_Search.md
+  title: 14. Map Pin Carousel Redo Search
+- file: 15.Brand_Page_Promotions_Products.md
+  title: 15. Brand Page Promotions Products
+- file: 16.Brand_Follow_Find_Store.md
+  title: 16. Brand Follow Find Store
+- file: 17.Check_In_Eligibility_States.md
+  title: 17. Check In Eligibility States
+- file: 18.Check_In_Success_Points.md
+  title: 18. Check In Success Points
+- file: 19.Add_Deal_Photo_Permissions.md
+  title: 19. Add Deal Photo Permissions
+- file: 20.Add_Deal_Create_Submit.md
+  title: 20. Add Deal Create Submit
+- file: 21.Account_Profile_Edit.md
+  title: 21. Account Profile Edit
+- file: 22.Account_Avatar_Address_Language.md
+  title: 22. Account Avatar Address Language
+- file: 23.Account_Change_Password_Delete.md
+  title: 23. Account Change Password Delete
+- file: 24.Points_Active_History.md
+  title: 24. Points Active History
+- file: 25.Points_Rewards_Exchange.md
+  title: 25. Points Rewards Exchange
+- file: 26.Following_Brands.md
+  title: 26. Following Brands
+- file: 27.My_Social_Activity.md
+  title: 27. My Social Activity
+- file: 28.Static_Legal_Help_Pages.md
+  title: 28. Static Legal Help Pages
+- file: 29.Offline_Error_States.md
+  title: 29. Offline Error States

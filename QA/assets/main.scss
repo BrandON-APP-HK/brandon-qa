@@ -1,0 +1,49 @@
+---
+---
+
+@import "minima";
+
+.scenario-nav {
+  align-items: center;
+  border-top: 1px solid #e8e8e8;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+}
+
+.scenario-nav__slot {
+  flex: 1;
+}
+
+.scenario-nav__slot--next {
+  text-align: right;
+}
+
+.scenario-nav__button {
+  border: 1px solid #111;
+  border-radius: 4px;
+  color: #111;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 0.55rem 1rem;
+  text-decoration: none;
+}
+
+.scenario-nav__button:hover,
+.scenario-nav__button:focus {
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+}
+
+.scenario-nav__button--disabled,
+.scenario-nav__button--disabled:hover,
+.scenario-nav__button--disabled:focus {
+  background: transparent;
+  border-color: #cfcfcf;
+  color: #9a9a9a;
+  cursor: default;
+}
