@@ -1,6 +1,6 @@
 # Brandon Mobile Manual QA Scenarios
 
-These files contain manual QA flows for the implemented app behavior. Each scenario uses tester commands plus `- [ ]` assertions for observable app state.
+These files contain manual QA flows for the implemented app behavior. Each scenario uses tester commands plus assertions for observable app state.
 
 ## Recommended execution order
 
